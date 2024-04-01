@@ -1,7 +1,13 @@
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Home from "./pages/Home";
+
 function App() {
   return (
     <div>
-      <h2 className=" bg-cyan-500   text-pretty border">marwan</h2>
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 }
