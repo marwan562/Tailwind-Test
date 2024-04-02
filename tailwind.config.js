@@ -4,7 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryColor: "#666",
+        primary: "#67dbda",
+      },
+      screens: {
+        sm: "576px",
+        md: "768px",
+        lg: "992",
+        xg: "1200px",
       },
     },
   },
