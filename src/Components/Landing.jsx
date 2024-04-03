@@ -2,8 +2,9 @@ import ImageCurvy from "./ImageCurvy";
 
 const Landing = () => {
   return (
-    <section className=" bg-[hsl(222,26%,15%)]">
-      <div className=" container pt-[200px]">
+    <section className=" bg-secondry">
+      <ImageCurvy status={"down"} />
+      <div className=" container ">
         <div className=" m-auto w-[725px]  max-w-full ">
           <img
             src="\images\illustration-intro.png"
@@ -29,7 +30,7 @@ const Landing = () => {
           </a>
         </div>
       </div>
-      <ImageCurvy/>
+      <ImageCurvy />
     </section>
   );
 };

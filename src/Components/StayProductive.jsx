@@ -1,7 +1,10 @@
+import ImageCurvy from "./ImageCurvy";
+
 const StayProductive = () => {
   return (
-    <section>
-      <div className=" container grid grid-cols-1 md:grid-cols-2  gap-[30px] text-white place-items-center">
+    <section className=" bg-secondry">
+      <ImageCurvy status={"down"} />
+      <div className="   container max-w-full grid grid-cols-1 md:grid-cols-2  gap-[30px] text-white place-items-center">
         <div>
           <img
             src="/images/illustration-stay-productive.png"
@@ -28,17 +31,18 @@ const StayProductive = () => {
           </div>
           <a
             href="#"
-            className=" underline underline-offset-4  bg flex justify-start gap-2 items-center "
+            className=" border-b-[2px]   w-fit pb-[2px] border-solid border-primary hover:border-[#42b0d1] bg flex justify-start gap-2 items-center  text-primary hover:text-[#42b0d1] transition-color duration-200"
           >
-            <p>See how Fylo works </p>
+            <p className="">See how Fylo works </p>
             <img
               src="/images/icon-arrow.svg"
               alt="Arrow-img"
-              className=" w-[25px] h-[25px] object-contain"
+              className=" animate-[moveRight_1s_ease-in-out_infinite] w-[25px] h-[25px] object-contain"
             />
           </a>
         </div>
       </div>
+      <ImageCurvy />
     </section>
   );
 };
